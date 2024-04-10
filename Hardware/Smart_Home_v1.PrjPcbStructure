@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=ESP.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=ESP.SchDoc|FileName=Output.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=ESP.SchDoc|FileName=Power_Circuit.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=ESP.SchDoc|FileName=Sheet1.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=ESP.SchDoc|FileName=STM.SchDoc|SheetNumber=2

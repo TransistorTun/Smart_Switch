@@ -1,0 +1,123 @@
+Change Component Designator: OldDesignator=D1 NewDesignator=D2
+Change Component Designator: OldDesignator=D2 NewDesignator=D3
+Change Component Designator: OldDesignator=D3 NewDesignator=D4
+Change Component Designator: OldDesignator=D4 NewDesignator=D5
+Change Component Designator: OldDesignator=D5 NewDesignator=D6
+Change Component Designator: OldDesignator=D6 NewDesignator=D7
+Change Component Designator: OldDesignator=D7 NewDesignator=D8
+Change Component Designator: OldDesignator=D8 NewDesignator=D9
+Change Component Designator: OldDesignator=P3 NewDesignator=P2
+Change Component Designator: OldDesignator=P4 NewDesignator=P3
+Change Component Designator: OldDesignator=P5 NewDesignator=P4
+Change Component Designator: OldDesignator=P6 NewDesignator=P5
+Change Component Designator: OldDesignator=P7 NewDesignator=P6
+Change Component Designator: OldDesignator=P8 NewDesignator=P7
+Change Component Designator: OldDesignator=P9 NewDesignator=P8
+Change component parameters: Designator = "C16" ("C16"); Footprint = "CAP_0603"; UniqueID = "\RXHUSMKT" ("\RXHUSMKT")
+Change component parameters (AddParameter): Name = ""; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "22pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Capacitance Tolerance"; Value = "+/-10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "Thegioiic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55 to +125degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 1 name"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 1 SN"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 1 URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 2 name"; Value = "Thegioiic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 2 SN"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 2 URL"; Value = "https://www.thegioiic.com/tu-gom-0603-22pf-50v"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technical Reference"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C17" ("C17"); Footprint = "CAP_0603"; UniqueID = "\TQGFPROX" ("\TQGFPROX")
+Change component parameters (AddParameter): Name = ""; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "22pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Capacitance Tolerance"; Value = "+/-10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "Thegioiic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55 to +125degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 1 name"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 1 SN"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 1 URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 2 name"; Value = "Thegioiic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 2 SN"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 2 URL"; Value = "https://www.thegioiic.com/tu-gom-0603-22pf-50v"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technical Reference"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C23" ("C23"); Footprint = "CAP_0603"; UniqueID = "\RLBKBXDG" ("\RLBKBXDG")
+Change component parameters (AddParameter): Name = ""; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "22pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Capacitance Tolerance"; Value = "+/-10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "Thegioiic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55 to +125degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 1 name"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 1 SN"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 1 URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 2 name"; Value = "Thegioiic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 2 SN"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 2 URL"; Value = "https://www.thegioiic.com/tu-gom-0603-22pf-50v"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technical Reference"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C24" ("C24"); Footprint = "CAP_0603"; UniqueID = "\FJVJMTWV" ("\FJVJMTWV")
+Change component parameters (AddParameter): Name = ""; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "22pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Capacitance Tolerance"; Value = "+/-10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "Thegioiic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55 to +125degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 1 name"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 1 SN"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 1 URL"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 2 name"; Value = "Thegioiic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 2 SN"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supply 2 URL"; Value = "https://www.thegioiic.com/tu-gom-0603-22pf-50v"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technical Reference"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D1(SS34)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "DO-214-AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "DO-214-AA/SMB; 2 C-Bend Leads; Body 5.3 x 3.6 mm, inc. leads (LxW)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SMB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=+12V Pin=D1-2
+Change Net Name : Old Net Name=NetD2_1 New Net Name=NetD3_1
+Change Net Name : Old Net Name=NetD3_1 New Net Name=NetD4_1
+Change Net Name : Old Net Name=NetD4_1 New Net Name=NetD5_1
+Change Net Name : Old Net Name=NetD5_1 New Net Name=NetD6_1
+Change Net Name : Old Net Name=NetD6_1 New Net Name=NetD7_1
+Change Net Name : Old Net Name=NetD7_1 New Net Name=NetD8_1
+Change Net Name : Old Net Name=NetD8_1 New Net Name=NetD9_1
+Change Net Name : Old Net Name=NetP3_2 New Net Name=NetP2_2
+Change Net Name : Old Net Name=NetP4_3 New Net Name=NetP3_3
+Change Net Name : Old Net Name=NetP4_4 New Net Name=NetP3_4
+Change Net Name : Old Net Name=NetP4_5 New Net Name=NetP3_5
+Change Net Name : Old Net Name=NetP4_6 New Net Name=NetP3_6
+Change Net Name : Old Net Name=NetP4_7 New Net Name=NetP3_7
+Change Net Name : Old Net Name=NetP5_2 New Net Name=NetP4_2
+Change Net Name : Old Net Name=NetP6_2 New Net Name=NetP5_2
+Change Net Name : Old Net Name=NetP7_2 New Net Name=NetP6_2
+Change Net Name : Old Net Name=NetP9_2 New Net Name=NetP8_2
+Added Member To Class: ClassName=Power_Circuit Member=Component D4 LED SMD

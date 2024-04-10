@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=01_Block_Diagram.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=01_Block_Diagram.SchDoc|FileName=02_Power_Diagram.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=01_Block_Diagram.SchDoc|FileName=03_MCU.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=01_Block_Diagram.SchDoc|FileName=05_ESP32.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=01_Block_Diagram.SchDoc|FileName=06_Power_Supply.SchDoc|SheetNumber=5
