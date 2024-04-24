@@ -1,0 +1,8 @@
+CMake Error at /home/pham_tuan/esp/esp-idf/tools/cmake/project.cmake:465 (message):
+  Directory specified in EXTRA_COMPONENT_DIRS doesn't exist:
+  /home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http_driver/library
+Call Stack (most recent call first):
+  /home/pham_tuan/esp/esp-idf/tools/cmake/project.cmake:549 (__project_init)
+  CMakeLists.txt:10 (project)
+
+

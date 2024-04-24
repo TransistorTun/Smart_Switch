@@ -1,0 +1,21 @@
+[1/13] Linking C static library esp-idf/mqtt/libmqtt.a
+[2/13] Linking C static library esp-idf/spiffs/libspiffs.a
+[3/13] Linking C static library esp-idf/wifi_provisioning/libwifi_provisioning.a
+[4/13] Performing build step for 'bootloader'
+[1/1] cd /home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/bootloader/esp-idf/esptool_py && /home/pham_tuan/.espressif/python_env/idf5.3_py3.10_env/bin/python /home/pham_tuan/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/bootloader/bootloader.bin
+Bootloader binary size 0x6870 bytes. 0x790 bytes (7%) free.
+[5/13] No install step for 'bootloader'
+[6/13] Completed 'bootloader'
+[7/13] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj
+[8/13] Linking C static library esp-idf/main/libmain.a
+[9/13] Generating ld/sections.ld
+[10/13] Building C object CMakeFiles/wifi_station.elf.dir/project_elf_src_esp32.c.obj
+[11/13] Linking CXX executable wifi_station.elf
+[12/13] Generating binary image from built executable
+esptool.py v4.8.dev3
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/wifi_station.bin
+[13/13] cd /home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/esp-idf/esptool_py && /home/pham_tuan/.espressif/python_env/idf5.3_py3.10_env/bin/python /home/pham_tuan/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/partition_table/partition-table.bin /home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/wifi_station.bin
+wifi_station.bin binary size 0xbcc20 bytes. Smallest app partition is 0x100000 bytes. 0x433e0 bytes (26%) free.

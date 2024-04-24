@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/CMakeFiles/bootloader
+/home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/CMakeFiles/bootloader.rule
+/home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/CMakeFiles/bootloader-complete.rule
+/home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http/station/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

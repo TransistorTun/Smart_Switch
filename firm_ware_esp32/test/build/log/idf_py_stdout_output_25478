@@ -1,0 +1,45 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig '/home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/test/sdkconfig'
+-- Found Git: /usr/bin/git (found version "2.34.1")
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/pham_tuan/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/pham_tuan/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/pham_tuan/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/test/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/pham_tuan/.espressif/python_env/idf5.3_py3.10_env/bin/python (found version "3.10.12") found components: Interpreter
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "test" version: v5.3-dev-1353-gb3f7e2c8a4-dirty
+-- Adding linker script /home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/test/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/pham_tuan/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/pham_tuan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/pham_tuan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/pham_tuan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/pham_tuan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/pham_tuan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/pham_tuan/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/pham_tuan/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/pham_tuan/esp/esp-idf/components/app_trace /home/pham_tuan/esp/esp-idf/components/app_update /home/pham_tuan/esp/esp-idf/components/bootloader /home/pham_tuan/esp/esp-idf/components/bootloader_support /home/pham_tuan/esp/esp-idf/components/bt /home/pham_tuan/esp/esp-idf/components/cmock /home/pham_tuan/esp/esp-idf/components/console /home/pham_tuan/esp/esp-idf/components/cxx /home/pham_tuan/esp/esp-idf/components/driver /home/pham_tuan/esp/esp-idf/components/efuse /home/pham_tuan/esp/esp-idf/components/esp-tls /home/pham_tuan/esp/esp-idf/components/esp_adc /home/pham_tuan/esp/esp-idf/components/esp_app_format /home/pham_tuan/esp/esp-idf/components/esp_bootloader_format /home/pham_tuan/esp/esp-idf/components/esp_coex /home/pham_tuan/esp/esp-idf/components/esp_common /home/pham_tuan/esp/esp-idf/components/esp_driver_ana_cmpr /home/pham_tuan/esp/esp-idf/components/esp_driver_dac /home/pham_tuan/esp/esp-idf/components/esp_driver_gpio /home/pham_tuan/esp/esp-idf/components/esp_driver_gptimer /home/pham_tuan/esp/esp-idf/components/esp_driver_i2c /home/pham_tuan/esp/esp-idf/components/esp_driver_i2s /home/pham_tuan/esp/esp-idf/components/esp_driver_ledc /home/pham_tuan/esp/esp-idf/components/esp_driver_mcpwm /home/pham_tuan/esp/esp-idf/components/esp_driver_parlio /home/pham_tuan/esp/esp-idf/components/esp_driver_pcnt /home/pham_tuan/esp/esp-idf/components/esp_driver_rmt /home/pham_tuan/esp/esp-idf/components/esp_driver_sdio /home/pham_tuan/esp/esp-idf/components/esp_driver_sdm /home/pham_tuan/esp/esp-idf/components/esp_driver_sdmmc /home/pham_tuan/esp/esp-idf/components/esp_driver_sdspi /home/pham_tuan/esp/esp-idf/components/esp_driver_spi /home/pham_tuan/esp/esp-idf/components/esp_driver_tsens /home/pham_tuan/esp/esp-idf/components/esp_driver_uart /home/pham_tuan/esp/esp-idf/components/esp_driver_usb_serial_jtag /home/pham_tuan/esp/esp-idf/components/esp_eth /home/pham_tuan/esp/esp-idf/components/esp_event /home/pham_tuan/esp/esp-idf/components/esp_gdbstub /home/pham_tuan/esp/esp-idf/components/esp_hid /home/pham_tuan/esp/esp-idf/components/esp_http_client /home/pham_tuan/esp/esp-idf/components/esp_http_server /home/pham_tuan/esp/esp-idf/components/esp_https_ota /home/pham_tuan/esp/esp-idf/components/esp_https_server /home/pham_tuan/esp/esp-idf/components/esp_hw_support /home/pham_tuan/esp/esp-idf/components/esp_lcd /home/pham_tuan/esp/esp-idf/components/esp_local_ctrl /home/pham_tuan/esp/esp-idf/components/esp_mm /home/pham_tuan/esp/esp-idf/components/esp_netif /home/pham_tuan/esp/esp-idf/components/esp_netif_stack /home/pham_tuan/esp/esp-idf/components/esp_partition /home/pham_tuan/esp/esp-idf/components/esp_phy /home/pham_tuan/esp/esp-idf/components/esp_pm /home/pham_tuan/esp/esp-idf/components/esp_psram /home/pham_tuan/esp/esp-idf/components/esp_ringbuf /home/pham_tuan/esp/esp-idf/components/esp_rom /home/pham_tuan/esp/esp-idf/components/esp_system /home/pham_tuan/esp/esp-idf/components/esp_timer /home/pham_tuan/esp/esp-idf/components/esp_wifi /home/pham_tuan/esp/esp-idf/components/espcoredump /home/pham_tuan/esp/esp-idf/components/esptool_py /home/pham_tuan/esp/esp-idf/components/fatfs /home/pham_tuan/esp/esp-idf/components/freertos /home/pham_tuan/esp/esp-idf/components/hal /home/pham_tuan/esp/esp-idf/components/heap /home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/test/lib/http /home/pham_tuan/esp/esp-idf/components/http_parser /home/pham_tuan/esp/esp-idf/components/idf_test /home/pham_tuan/esp/esp-idf/components/ieee802154 /home/pham_tuan/esp/esp-idf/components/json /home/pham_tuan/esp/esp-idf/components/log /home/pham_tuan/esp/esp-idf/components/lwip /home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/test/main /home/pham_tuan/esp/esp-idf/components/mbedtls /home/pham_tuan/esp/esp-idf/components/mqtt /home/pham_tuan/esp/esp-idf/components/newlib /home/pham_tuan/esp/esp-idf/components/nvs_flash /home/pham_tuan/esp/esp-idf/components/nvs_sec_provider /home/pham_tuan/esp/esp-idf/components/openthread /home/pham_tuan/esp/esp-idf/components/partition_table /home/pham_tuan/esp/esp-idf/components/perfmon /home/pham_tuan/esp/esp-idf/components/protobuf-c /home/pham_tuan/esp/esp-idf/components/protocomm /home/pham_tuan/esp/esp-idf/components/pthread /home/pham_tuan/esp/esp-idf/components/sdmmc /home/pham_tuan/esp/esp-idf/components/soc /home/pham_tuan/esp/esp-idf/components/spi_flash /home/pham_tuan/esp/esp-idf/components/spiffs /home/pham_tuan/esp/esp-idf/components/tcp_transport /home/pham_tuan/esp/esp-idf/components/ulp /home/pham_tuan/esp/esp-idf/components/unity /home/pham_tuan/esp/esp-idf/components/usb /home/pham_tuan/esp/esp-idf/components/vfs /home/pham_tuan/esp/esp-idf/components/wear_levelling /home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/test/lib/wifi /home/pham_tuan/esp/esp-idf/components/wifi_provisioning /home/pham_tuan/esp/esp-idf/components/wpa_supplicant /home/pham_tuan/esp/esp-idf/components/xtensa
+-- Configuring done (3.2s)
+-- Generating done (0.3s)
+-- Build files have been written to: /home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/test/build
