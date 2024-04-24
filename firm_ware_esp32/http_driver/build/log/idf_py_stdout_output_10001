@@ -1,0 +1,5 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+/usr/bin/cmake --regenerate-during-build -S/home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http_driver -B/home/pham_tuan/esp/esp-idf/my_project/smart_home_v1/firm_ware_esp32/http_driver/build
