@@ -1,0 +1,121 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESE�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  7 2024 18:02:14[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=254c4h (152772) map[0m
+[0;32mI (160) esp_image: segment 1: paddr=000354ec vaddr=3ffb0000 size=03ad4h ( 15060) load[0m
+[0;32mI (166) esp_image: segment 2: paddr=00038fc8 vaddr=40080000 size=07050h ( 28752) load[0m
+[0;32mI (178) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=8d048h (577608) map[0m
+[0;32mI (387) esp_image: segment 4: paddr=000cd070 vaddr=40087050 size=0f940h ( 63808) load[0m
+[0;32mI (425) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (425) boot: Disabling RNG early entropy source...[0m
+[0;32mI (437) cpu_start: Multicore app[0m
+[0;32mI (437) cpu_start: Pro cpu up.[0m
+[0;32mI (437) cpu_start: Starting app cpu, entry point is 0x40081460[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (455) cpu_start: Pro cpu start user code[0m
+[0;32mI (455) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (455) cpu_start: Application information:[0m
+[0;32mI (460) cpu_start: Project name:     test[0m
+[0;32mI (465) cpu_start: App version:      v5.1.2-dirty[0m
+[0;32mI (470) cpu_start: Compile time:     May  7 2024 18:01:56[0m
+[0;32mI (476) cpu_start: ELF file SHA256:  964e713e...[0m
+[0;32mI (481) cpu_start: ESP-IDF:          v5.1.2-dirty[0m
+[0;32mI (487) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (491) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (496) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (501) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (508) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (514) heap_init: At 3FFB7C18 len 000283E8 (160 KiB): DRAM[0m
+[0;32mI (520) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (527) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (533) heap_init: At 40096990 len 00009670 (37 KiB): IRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (544) spi_flash: flash io: dio[0m
+[0;33mW (548) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (562) app_start: Starting scheduler on CPU0[0m
+[0;32mI (566) app_start: Starting scheduler on CPU1[0m
+[0;32mI (566) main_task: Started on CPU0[0m
+[0;32mI (576) main_task: Calling app_main()[0m
+I (611) wifi:wifi driver task: 3ffbfcf0, prio:23, stack:6656, core=0
+I (631) wifi:wifi firmware version: 91b9630
+I (631) wifi:wifi certification version: v7.0
+I (632) wifi:config NVS flash: enabled
+I (632) wifi:config nano formating: disabled
+I (636) wifi:Init data frame dynamic rx buffer num: 32
+I (641) wifi:Init static rx mgmt buffer num: 5
+I (645) wifi:Init management short buffer num: 32
+I (649) wifi:Init dynamic tx buffer num: 32
+I (653) wifi:Init static rx buffer size: 1600
+I (657) wifi:Init static rx buffer num: 10
+I (661) wifi:Init dynamic rx buffer num: 32
+[0;32mI (666) wifi_init: rx ba win: 6[0m
+[0;32mI (669) wifi_init: tcpip mbox: 32[0m
+[0;32mI (673) wifi_init: udp mbox: 6[0m
+[0;32mI (676) wifi_init: tcp mbox: 6[0m
+[0;32mI (680) wifi_init: tcp tx win: 5760[0m
+[0;32mI (684) wifi_init: tcp rx win: 5760[0m
+[0;32mI (688) wifi_init: tcp mss: 1440[0m
+[0;32mI (692) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (697) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (703) wifi station: Starting connect[0m
+[0;32mI (706) wifi station: Error check done[0m
+[0;32mI (710) wifi station: Config done[0m
+[0;32mI (718) phy_init: phy_version 4780,16b31a7,Sep 22 2023,20:42:16[0m
+[0;33mW (722) phy_init: failed to load RF calibration data (0xffffffff), falling back to full calibration[0m
+I (823) wifi:mode : sta (40:22:d8:63:7f:a4)
+I (824) wifi:enable tsf
+[0;32mI (827) wifi station: wifi_init_station finished.[0m
+I (837) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1
+I (839) wifi:state: init -> auth (b0)
+I (845) wifi:state: auth -> assoc (0)
+I (853) wifi:state: assoc -> run (10)
+I (896) wifi:connected with KOPHiN COFFEE, aid = 5, channel 6, BW20, bssid = 04:bd:88:44:35:80
+I (897) wifi:security: WPA2-PSK, phy: bgn, rssi: -52
+I (904) wifi:pm start, type: 1
+
+I (905) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (963) wifi:<ba-add>idx:0 (ifx:0, 04:bd:88:44:35:80), tid:0, ssn:2, winSize:64
+[0;32mI (1914) esp_netif_handlers: sta ip: 172.16.0.128, mask: 255.255.252.0, gw: 172.16.0.1[0m
+[0;32mI (1915) scan: got ip:172.16.0.128[0m
+[0;32mI (1917) wifi station: Config done 2[0m
+[0;32mI (1921) wifi station: connected to ap SSID:KOPHiN COFFEE password:kophincamon[0m
+[0;32mI (1929) http_server: Starting server on port: '80'[0m
+[0;32mI (1938) http_server: Registering URI handlers[0m
+[0;32mI (1940) http_server: Finish Regist URI handlers[0m
+[0;32mI (1945) uart_task: start receive[0m
+[0;32mI (1949) main_task: Returned from app_main()[0m
+1
+[0;32mI (8799) uart_task: UART_DHT[0m
+1
+[0;32mI (18882) uart_task: UART_DHT[0m
+[0;33mW (18955) httpd_uri: httpd_uri: URI '/favicon.ico' not found[0m
+[0;33mW (18956) httpd_txrx: httpd_resp_send_err: 404 Not Found - 404 NOT FOUND[0m
+SW1 change state: 0t�?�w�?3
+1
+[0;32mI (29022) uart_task: UART_DHT[0m
+SW1 change state: 1t�?�w�?3

@@ -1,9 +1,0 @@
-CMake Error at /home/pham_tuan/esp/esp-idf/tools/cmake/build.cmake:268 (message):
-  Failed to resolve component 'http_server_app'.
-Call Stack (most recent call first):
-  /home/pham_tuan/esp/esp-idf/tools/cmake/build.cmake:304 (__build_resolve_and_add_req)
-  /home/pham_tuan/esp/esp-idf/tools/cmake/build.cmake:599 (__build_expand_requirements)
-  /home/pham_tuan/esp/esp-idf/tools/cmake/project.cmake:710 (idf_build_process)
-  CMakeLists.txt:10 (project)
-
-

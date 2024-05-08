@@ -1,0 +1,1388 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (P�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF v5.1.2-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May  7 2024 18:02:14[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=2594ch (153932) map[0m
+[0;32mI (160) esp_image: segment 1: paddr=00035974 vaddr=3ffb0000 size=03ad4h ( 15060) load[0m
+[0;32mI (167) esp_image: segment 2: paddr=00039450 vaddr=40080000 size=06bc8h ( 27592) load[0m
+[0;32mI (178) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=8d0cch (577740) map[0m
+[0;32mI (387) esp_image: segment 4: paddr=000cd0f4 vaddr=40086bc8 size=0fdc8h ( 64968) load[0m
+[0;32mI (426) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (426) boot: Disabling RNG early entropy source...[0m
+[0;32mI (437) cpu_start: Multicore app[0m
+[0;32mI (438) cpu_start: Pro cpu up.[0m
+[0;32mI (438) cpu_start: Starting app cpu, entry point is 0x40081460[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (456) cpu_start: Pro cpu start user code[0m
+[0;32mI (456) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (456) cpu_start: Application information:[0m
+[0;32mI (460) cpu_start: Project name:     test[0m
+[0;32mI (465) cpu_start: App version:      v5.1.2-dirty[0m
+[0;32mI (470) cpu_start: Compile time:     May  7 2024 18:01:56[0m
+[0;32mI (477) cpu_start: ELF file SHA256:  8301bb3a...[0m
+[0;32mI (482) cpu_start: ESP-IDF:          v5.1.2-dirty[0m
+[0;32mI (487) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (492) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (497) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (502) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (509) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (515) heap_init: At 3FFB7C18 len 000283E8 (160 KiB): DRAM[0m
+[0;32mI (521) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (527) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (534) heap_init: At 40096990 len 00009670 (37 KiB): IRAM[0m
+[0;32mI (541) spi_flash: detected chip: generic[0m
+[0;32mI (545) spi_flash: flash io: dio[0m
+[0;33mW (548) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (562) app_start: Starting scheduler on CPU0[0m
+[0;32mI (567) app_start: Starting scheduler on CPU1[0m
+[0;32mI (567) main_task: Started on CPU0[0m
+[0;32mI (577) main_task: Calling app_main()[0m
+I (612) wifi:wifi driver task: 3ffbfc6c, prio:23, stack:6656, core=0
+I (632) wifi:wifi firmware version: 91b9630
+I (633) wifi:wifi certification version: v7.0
+I (633) wifi:config NVS flash: enabled
+I (633) wifi:config nano formating: disabled
+I (637) wifi:Init data frame dynamic rx buffer num: 32
+I (642) wifi:Init static rx mgmt buffer num: 5
+I (646) wifi:Init management short buffer num: 32
+I (650) wifi:Init dynamic tx buffer num: 32
+I (654) wifi:Init static rx buffer size: 1600
+I (658) wifi:Init static rx buffer num: 10
+I (662) wifi:Init dynamic rx buffer num: 32
+[0;32mI (667) wifi_init: rx ba win: 6[0m
+[0;32mI (670) wifi_init: tcpip mbox: 32[0m
+[0;32mI (674) wifi_init: udp mbox: 6[0m
+[0;32mI (678) wifi_init: tcp mbox: 6[0m
+[0;32mI (681) wifi_init: tcp tx win: 5760[0m
+[0;32mI (685) wifi_init: tcp rx win: 5760[0m
+[0;32mI (690) wifi_init: tcp mss: 1440[0m
+[0;32mI (694) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (698) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (704) wifi station: Starting connect[0m
+[0;32mI (707) wifi station: Error check done[0m
+[0;32mI (712) wifi station: Config done[0m
+[0;32mI (719) phy_init: phy_version 4780,16b31a7,Sep 22 2023,20:42:16[0m
+I (813) wifi:mode : sta (40:22:d8:63:7f:a4)
+I (814) wifi:enable tsf
+[0;32mI (817) wifi station: wifi_init_station finished.[0m
+I (828) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1
+I (830) wifi:state: init -> auth (b0)
+I (835) wifi:state: auth -> init (1c0)
+I (836) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1
+[0;32mI (840) scan: retry to connect to the AP[0m
+[0;32mI (841) scan: connect to the AP fail[0m
+[0;32mI (3252) scan: retry to connect to the AP[0m
+[0;32mI (3253) scan: connect to the AP fail[0m
+I (3258) wifi:new:<6,0>, old:<6,0>, ap:<255,255>, sta:<6,0>, prof:1
+I (3260) wifi:state: init -> auth (b0)
+I (3265) wifi:state: auth -> assoc (0)
+I (3281) wifi:state: assoc -> run (10)
+I (3314) wifi:connected with MrAT, aid = 10, channel 6, BW20, bssid = 8e:e9:69:f3:65:cb
+I (3315) wifi:security: WPA2-PSK, phy: bgn, rssi: -43
+I (3321) wifi:pm start, type: 1
+
+I (3385) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+[0;32mI (4326) esp_netif_handlers: sta ip: 192.168.43.192, mask: 255.255.255.0, gw: 192.168.43.1[0m
+[0;32mI (4327) scan: got ip:192.168.43.192[0m
+[0;32mI (4329) wifi station: Config done 2[0m
+[0;32mI (4333) wifi station: connected to ap SSID:MrAT password:14042003[0m
+[0;32mI (4340) http_server: Starting server on port: '80'[0m
+[0;32mI (4350) http_server: Registering URI handlers[0m
+[0;32mI (4351) http_server: Finish Regist URI handlers[0m
+[0;32mI (4356) main_task: Returned from app_main()[0m
+read header
+[0;32mI (4906) uart_task: UART_DHT_HUMID[0m
+[0;32mI (4906) uart_task: 82.0[0m
+read header
+[0;32mI (4966) uart_task: UART_DHT_TEMP[0m
+[0;32mI (4966) uart_task: 31.8[0m
+I (5745) wifi:<ba-add>idx:0 (ifx:0, 8e:e9:69:f3:65:cb), tid:0, ssn:2, winSize:64
+read header
+[0;32mI (14926) uart_task: UART_DHT_HUMID[0m
+[0;32mI (14926) uart_task: 82.0[0m
+read header
+[0;32mI (14990) uart_task: UART_DHT_TEMP[0m
+[0;32mI (14990) uart_task: 32.3[0m
+read header
+[0;32mI (25010) uart_task: UART_DHT_HUMID[0m
+[0;32mI (25010) uart_task: 82.0[0m
+read header
+[0;32mI (25070) uart_task: UART_DHT_TEMP[0m
+[0;32mI (25070) uart_task: 32.3[0m
+read header
+[0;32mI (35091) uart_task: UART_DHT_HUMID[0m
+[0;32mI (35091) uart_task: 82.0[0m
+read header
+[0;32mI (35151) uart_task: UART_DHT_TEMP[0m
+[0;32mI (35151) uart_task: 32.3[0m
+read header
+[0;32mI (45112) uart_task: UART_DHT_HUMID[0m
+[0;32mI (45112) uart_task: 80.0[0m
+read header
+[0;32mI (45173) uart_task: UART_DHT_TEMP[0m
+[0;32mI (45173) uart_task: 16.1[0m
+read header
+[0;32mI (55193) uart_task: UART_DHT_HUMID[0m
+[0;32mI (55193) uart_task: 81.0[0m
+read header
+[0;32mI (55253) uart_task: UART_DHT_TEMP[0m
+[0;32mI (55253) uart_task: 32.3[0m
+read header
+[0;32mI (65275) uart_task: UART_DHT_HUMID[0m
+[0;32mI (65275) uart_task: 80.0[0m
+read header
+[0;32mI (65335) uart_task: UART_DHT_TEMP[0m
+[0;32mI (65335) uart_task: 32.3[0m
+read header
+[0;32mI (75295) uart_task: UART_DHT_HUMID[0m
+[0;32mI (75295) uart_task: 81.0[0m
+read header
+[0;32mI (75359) uart_task: UART_DHT_TEMP[0m
+[0;32mI (75359) uart_task: 32.3[0m
+read header
+[0;32mI (85379) uart_task: UART_DHT_HUMID[0m
+[0;32mI (85379) uart_task: 81.0[0m
+read header
+[0;32mI (85439) uart_task: UART_DHT_TEMP[0m
+[0;32mI (85439) uart_task: 32.3[0m
+read header
+[0;32mI (95459) uart_task: UART_DHT_HUMID[0m
+[0;32mI (95459) uart_task: 81.0[0m
+read header
+[0;32mI (95519) uart_task: UART_DHT_TEMP[0m
+[0;32mI (95519) uart_task: 32.3[0m
+read header
+[0;32mI (105479) uart_task: UART_DHT_HUMID[0m
+[0;32mI (105479) uart_task: 80.0[0m
+read header
+[0;32mI (105539) uart_task: UART_DHT_TEMP[0m
+[0;32mI (105539) uart_task: 16.1[0m
+read header
+[0;32mI (115559) uart_task: UART_DHT_HUMID[0m
+[0;32mI (115559) uart_task: 80.0[0m
+read header
+[0;32mI (115619) uart_task: UART_DHT_TEMP[0m
+[0;32mI (115619) uart_task: 16.1[0m
+read header
+[0;32mI (125639) uart_task: UART_DHT_HUMID[0m
+[0;32mI (125639) uart_task: 81.0[0m
+read header
+[0;32mI (125699) uart_task: UART_DHT_TEMP[0m
+[0;32mI (125699) uart_task: 32.3[0m
+read header
+[0;32mI (135660) uart_task: UART_DHT_HUMID[0m
+[0;32mI (135660) uart_task: 81.0[0m
+read header
+[0;32mI (135720) uart_task: UART_DHT_TEMP[0m
+[0;32mI (135720) uart_task: 32.3[0m
+read header
+[0;32mI (145741) uart_task: UART_DHT_HUMID[0m
+[0;32mI (145741) uart_task: 81.0[0m
+read header
+[0;32mI (145801) uart_task: UART_DHT_TEMP[0m
+[0;32mI (145801) uart_task: 32.3[0m
+read header
+[0;32mI (155770) uart_task: UART_DHT_HUMID[0m
+[0;32mI (155770) uart_task: 81.0[0m
+read header
+[0;32mI (155838) uart_task: UART_DHT_TEMP[0m
+[0;32mI (155838) uart_task: 32.3[0m
+read header
+[0;32mI (165858) uart_task: UART_DHT_HUMID[0m
+[0;32mI (165858) uart_task: 81.0[0m
+read header
+[0;32mI (165918) uart_task: UART_DHT_TEMP[0m
+[0;32mI (165918) uart_task: 32.3[0m
+read header
+[0;32mI (175889) uart_task: UART_DHT_HUMID[0m
+[0;32mI (175889) uart_task: 81.0[0m
+read header
+[0;32mI (175958) uart_task: UART_DHT_TEMP[0m
+[0;32mI (175958) uart_task: 32.3[0m
+read header
+[0;32mI (185979) uart_task: UART_DHT_HUMID[0m
+[0;32mI (185979) uart_task: 81.0[0m
+read header
+[0;32mI (186039) uart_task: UART_DHT_TEMP[0m
+[0;32mI (186039) uart_task: 32.3[0m
+read header
+[0;32mI (196008) uart_task: UART_DHT_HUMID[0m
+[0;32mI (196008) uart_task: 81.0[0m
+read header
+[0;32mI (196077) uart_task: UART_DHT_TEMP[0m
+[0;32mI (196077) uart_task: 32.3[0m
+read header
+read header
+[0;32mI (217689) uart_task: UART_DHT_HUMID[0m
+[0;32mI (217689) uart_task: 8181.0[0m
+read header
+[0;32mI (217752) uart_task: UART_DHT_TEMP[0m
+[0;32mI (217752) uart_task: 0.1[0m
+read header
+[0;32mI (227772) uart_task: UART_DHT_HUMID[0m
+[0;32mI (227772) uart_task: 81.0[0m
+read header
+[0;32mI (227832) uart_task: UART_DHT_TEMP[0m
+[0;32mI (227832) uart_task: 32.3[0m
+read header
+[0;32mI (237793) uart_task: UART_DHT_HUMID[0m
+[0;32mI (237793) uart_task: 81.0[0m
+read header
+[0;32mI (237862) uart_task: UART_DHT_TEMP[0m
+[0;32mI (237862) uart_task: 32.3[0m
+read header
+[0;32mI (247882) uart_task: UART_DHT_HUMID[0m
+[0;32mI (247882) uart_task: 81.0[0m
+read header
+[0;32mI (247942) uart_task: UART_DHT_TEMP[0m
+[0;32mI (247942) uart_task: 32.3[0m
+read header
+[0;32mI (257962) uart_task: UART_DHT_HUMID[0m
+[0;32mI (257962) uart_task: 81.0[0m
+read header
+[0;32mI (258022) uart_task: UART_DHT_TEMP[0m
+[0;32mI (258022) uart_task: 32.3[0m
+read header
+[0;32mI (267983) uart_task: UART_DHT_HUMID[0m
+[0;32mI (267984) uart_task: 81.0[0m
+read header
+[0;32mI (268044) uart_task: UART_DHT_TEMP[0m
+[0;32mI (268044) uart_task: 32.1[0m
+read header
+[0;32mI (278068) uart_task: UART_DHT_HUMID[0m
+[0;32mI (278068) uart_task: 81.0[0m
+read header
+[0;32mI (278128) uart_task: UART_DHT_TEMP[0m
+[0;32mI (278128) uart_task: 31.9[0m
+read header
+[0;32mI (288089) uart_task: UART_DHT_HUMID[0m
+[0;32mI (288089) uart_task: 81.0[0m
+read header
+[0;32mI (288154) uart_task: UART_DHT_TEMP[0m
+[0;32mI (288154) uart_task: 31.8[0m
+read header
+[0;32mI (298176) uart_task: UART_DHT_HUMID[0m
+[0;32mI (298176) uart_task: 81.0[0m
+read header
+[0;32mI (298236) uart_task: UART_DHT_TEMP[0m
+[0;32mI (298236) uart_task: 31.8[0m
+read header
+[0;32mI (301596) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (302436) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (303216) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (304416) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (308201) uart_task: UART_DHT_HUMID[0m
+[0;32mI (308201) uart_task: 82.0[0m
+read header
+[0;32mI (308269) uart_task: UART_DHT_TEMP[0m
+[0;32mI (308269) uart_task: 32.3[0m
+read header
+[0;32mI (318291) uart_task: UART_DHT_HUMID[0m
+[0;32mI (318291) uart_task: 82.0[0m
+read header
+[0;32mI (318351) uart_task: UART_DHT_TEMP[0m
+[0;32mI (318351) uart_task: 32.3[0m
+read header
+[0;32mI (328371) uart_task: UART_DHT_HUMID[0m
+[0;32mI (328371) uart_task: 82.0[0m
+read header
+[0;32mI (328431) uart_task: UART_DHT_TEMP[0m
+[0;32mI (328431) uart_task: 32.3[0m
+read header
+[0;32mI (332631) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (333593) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (338393) uart_task: UART_DHT_HUMID[0m
+[0;32mI (338393) uart_task: 82.0[0m
+read header
+[0;32mI (338453) uart_task: UART_DHT_TEMP[0m
+[0;32mI (338453) uart_task: 32.3[0m
+read header
+[0;32mI (338693) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (341993) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (342473) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (344034) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (344394) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (345295) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (345723) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (348483) uart_task: UART_DHT_HUMID[0m
+[0;32mI (348483) uart_task: 82.0[0m
+read header
+[0;32mI (348543) uart_task: UART_DHT_TEMP[0m
+[0;32mI (348543) uart_task: 32.3[0m
+read header
+[0;32mI (358505) uart_task: UART_DHT_HUMID[0m
+[0;32mI (358506) uart_task: 81.0[0m
+read header
+[0;32mI (358574) uart_task: UART_DHT_TEMP[0m
+[0;32mI (358574) uart_task: 32.3[0m
+read header
+[0;32mI (368595) uart_task: UART_DHT_HUMID[0m
+[0;32mI (368595) uart_task: 81.0[0m
+read header
+[0;32mI (368655) uart_task: UART_DHT_TEMP[0m
+[0;32mI (368655) uart_task: 32.3[0m
+read header
+read header
+read header
+[0;32mI (377617) uart_task: UART_BUTTON_1[0m
+read header
+read header
+[0;32mI (378647) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (378707) uart_task: UART_DHT_TEMP[0m
+[0;32mI (378707) uart_task: 32.3[0m
+read header
+[0;32mI (380267) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (381227) uart_task: UART_BUTTON_4[0m
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+[0;32mI (393868) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (395668) uart_task: UART_BUTTON_2[0m
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+read header
+[0;32mI (408837) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (408897) uart_task: UART_DHT_TEMP[0m
+[0;32mI (408897) uart_task: 16.4[0m
+read header
+[0;32mI (418858) uart_task: UART_DHT_HUMID[0m
+[0;32mI (418858) uart_task: 80.0[0m
+read header
+[0;32mI (418925) uart_task: UART_DHT_TEMP[0m
+[0;32mI (418925) uart_task: 32.5[0m
+read header
+[0;32mI (424205) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (424866) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (428947) uart_task: UART_DHT_HUMID[0m
+[0;32mI (428947) uart_task: 80.0[0m
+read header
+[0;32mI (429007) uart_task: UART_DHT_TEMP[0m
+[0;32mI (429007) uart_task: 32.3[0m
+read header
+[0;32mI (439029) uart_task: UART_DHT_HUMID[0m
+[0;32mI (439029) uart_task: 80.0[0m
+read header
+[0;32mI (439089) uart_task: UART_DHT_TEMP[0m
+[0;32mI (439089) uart_task: 32.3[0m
+read header
+[0;32mI (449051) uart_task: UART_DHT_HUMID[0m
+[0;32mI (449051) uart_task: 80.0[0m
+read header
+[0;32mI (449113) uart_task: UART_DHT_TEMP[0m
+[0;32mI (449113) uart_task: 32.3[0m
+read header
+[0;32mI (459133) uart_task: UART_DHT_HUMID[0m
+[0;32mI (459133) uart_task: 80.0[0m
+read header
+[0;32mI (459193) uart_task: UART_DHT_TEMP[0m
+[0;32mI (459193) uart_task: 32.3[0m
+read header
+[0;32mI (469213) uart_task: UART_DHT_HUMID[0m
+[0;32mI (469213) uart_task: 80.0[0m
+read header
+[0;32mI (469273) uart_task: UART_DHT_TEMP[0m
+[0;32mI (469273) uart_task: 32.3[0m
+read header
+[0;32mI (487754) uart_task: UART_DHT_HUMID[0m
+[0;32mI (487754) uart_task: 80.0[0m
+read header
+[0;32mI (487814) uart_task: UART_DHT_TEMP[0m
+[0;32mI (487814) uart_task: 16.1[0m
+read header
+[0;32mI (497775) uart_task: UART_DHT_HUMID[0m
+[0;32mI (497775) uart_task: 80.0[0m
+read header
+[0;32mI (497835) uart_task: UART_DHT_TEMP[0m
+[0;32mI (497835) uart_task: 32.3[0m
+read header
+[0;32mI (499815) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (500835) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (501795) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (502578) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (503358) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (505280) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (505940) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (506600) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (506961) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (507861) uart_task: UART_DHT_HUMID[0m
+[0;32mI (507861) uart_task: 80.0[0m
+read header
+[0;32mI (507921) uart_task: UART_DHT_TEMP[0m
+[0;32mI (507921) uart_task: 16.1[0m
+read header
+[0;32mI (517888) uart_task: UART_DHT_HUMID[0m
+[0;32mI (517888) uart_task: 80.0[0m
+read header
+[0;32mI (517954) uart_task: UART_DHT_TEMP[0m
+[0;32mI (517954) uart_task: 32.3[0m
+read header
+[0;32mI (522694) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (523174) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (523834) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (524194) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (524981) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (525402) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (526062) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (526422) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (527982) uart_task: UART_DHT_HUMID[0m
+[0;32mI (527982) uart_task: 80.0[0m
+read header
+[0;32mI (528042) uart_task: UART_DHT_TEMP[0m
+[0;32mI (528042) uart_task: 32.3[0m
+read header
+[0;32mI (538062) uart_task: UART_DHT_HUMID[0m
+[0;32mI (538062) uart_task: 80.0[0m
+read header
+[0;32mI (538122) uart_task: UART_DHT_TEMP[0m
+[0;32mI (538122) uart_task: 32.3[0m
+read header
+[0;32mI (545323) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (546223) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (546764) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (548084) uart_task: UART_DHT_HUMID[0m
+[0;32mI (548084) uart_task: 80.0[0m
+read header
+[0;32mI (548144) uart_task: UART_DHT_TEMP[0m
+[0;32mI (548144) uart_task: 32.3[0m
+read header
+[0;32mI (549884) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (550604) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (551204) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (551991) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (552962) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (553382) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (558182) uart_task: UART_DHT_HUMID[0m
+[0;32mI (558182) uart_task: 81.0[0m
+read header
+[0;32mI (558242) uart_task: UART_DHT_TEMP[0m
+[0;32mI (558242) uart_task: 32.3[0m
+read header
+[0;32mI (568203) uart_task: UART_DHT_HUMID[0m
+[0;32mI (568203) uart_task: 81.0[0m
+read header
+[0;32mI (568268) uart_task: UART_DHT_TEMP[0m
+[0;32mI (568268) uart_task: 32.3[0m
+read header
+[0;32mI (578288) uart_task: UART_DHT_HUMID[0m
+[0;32mI (578288) uart_task: 81.0[0m
+read header
+[0;32mI (578348) uart_task: UART_DHT_TEMP[0m
+[0;32mI (578348) uart_task: 32.3[0m
+read header
+[0;32mI (588369) uart_task: UART_DHT_HUMID[0m
+[0;32mI (588371) uart_task: 81.0[0m
+read header
+[0;32mI (588431) uart_task: UART_DHT_TEMP[0m
+[0;32mI (588431) uart_task: 32.3[0m
+read header
+[0;32mI (598391) uart_task: UART_DHT_HUMID[0m
+[0;32mI (598391) uart_task: 81.0[0m
+read header
+[0;32mI (598451) uart_task: UART_DHT_TEMP[0m
+[0;32mI (598451) uart_task: 32.3[0m
+read header
+[0;32mI (608471) uart_task: UART_DHT_HUMID[0m
+[0;32mI (608471) uart_task: 81.0[0m
+read header
+[0;32mI (608531) uart_task: UART_DHT_TEMP[0m
+[0;32mI (608531) uart_task: 32.3[0m
+read header
+[0;32mI (618551) uart_task: UART_DHT_HUMID[0m
+[0;32mI (618551) uart_task: 81.0[0m
+read header
+[0;32mI (618611) uart_task: UART_DHT_TEMP[0m
+[0;32mI (618611) uart_task: 32.3[0m
+read header
+[0;32mI (628572) uart_task: UART_DHT_HUMID[0m
+[0;32mI (628572) uart_task: 81.0[0m
+read header
+[0;32mI (628632) uart_task: UART_DHT_TEMP[0m
+[0;32mI (628632) uart_task: 32.3[0m
+read header
+[0;32mI (638654) uart_task: UART_DHT_HUMID[0m
+[0;32mI (638654) uart_task: 81.0[0m
+read header
+[0;32mI (638714) uart_task: UART_DHT_TEMP[0m
+[0;32mI (638714) uart_task: 32.3[0m
+read header
+[0;32mI (648681) uart_task: UART_DHT_HUMID[0m
+[0;32mI (648681) uart_task: 81.0[0m
+read header
+[0;32mI (648750) uart_task: UART_DHT_TEMP[0m
+[0;32mI (648750) uart_task: 32.3[0m
+read header
+[0;32mI (658772) uart_task: UART_DHT_HUMID[0m
+[0;32mI (658772) uart_task: 80.0[0m
+read header
+[0;32mI (658832) uart_task: UART_DHT_TEMP[0m
+[0;32mI (658832) uart_task: 16.1[0m
+read header
+[0;32mI (660212) uart_task: UART_DHT_HUMID[0m
+[0;32mI (660212) uart_task: 81.0[0m
+read header
+[0;32mI (660272) uart_task: UART_DHT_TEMP[0m
+[0;32mI (660272) uart_task: 32.3[0m
+read header
+[0;32mI (666216) uart_task: UART_DHT_HUMID[0m
+[0;32mI (666216) uart_task: 81.0[0m
+read header
+[0;32mI (666284) uart_task: UART_DHT_TEMP[0m
+[0;32mI (666284) uart_task: 0.1[0m
+read header
+[0;32mI (676304) uart_task: UART_DHT_HUMID[0m
+[0;32mI (676304) uart_task: 81.0[0m
+read header
+[0;32mI (676364) uart_task: UART_DHT_TEMP[0m
+[0;32mI (676364) uart_task: 32.3[0m
+read header
+[0;32mI (686325) uart_task: UART_DHT_HUMID[0m
+[0;32mI (686325) uart_task: 80.0[0m
+read header
+[0;32mI (686392) uart_task: UART_DHT_TEMP[0m
+[0;32mI (686392) uart_task: 32.3[0m
+read header
+[0;32mI (696412) uart_task: UART_DHT_HUMID[0m
+[0;32mI (696412) uart_task: 80.0[0m
+read header
+[0;32mI (696472) uart_task: UART_DHT_TEMP[0m
+[0;32mI (696472) uart_task: 32.3[0m
+read header
+[0;32mI (706492) uart_task: UART_DHT_HUMID[0m
+[0;32mI (706492) uart_task: 80.0[0m
+read header
+[0;32mI (706552) uart_task: UART_DHT_TEMP[0m
+[0;32mI (706552) uart_task: 32.3[0m
+read header
+[0;32mI (716514) uart_task: UART_DHT_HUMID[0m
+[0;32mI (716514) uart_task: 80.0[0m
+read header
+[0;32mI (716580) uart_task: UART_DHT_TEMP[0m
+[0;32mI (716580) uart_task: 32.3[0m
+read header
+[0;32mI (726601) uart_task: UART_DHT_HUMID[0m
+[0;32mI (726601) uart_task: 80.0[0m
+read header
+[0;32mI (726661) uart_task: UART_DHT_TEMP[0m
+[0;32mI (726661) uart_task: 32.3[0m
+read header
+[0;32mI (736681) uart_task: UART_DHT_HUMID[0m
+[0;32mI (736683) uart_task: 80.0[0m
+read header
+[0;32mI (736743) uart_task: UART_DHT_TEMP[0m
+[0;32mI (736743) uart_task: 32.3[0m
+read header
+[0;32mI (746704) uart_task: UART_DHT_HUMID[0m
+[0;32mI (746704) uart_task: 80.0[0m
+read header
+[0;32mI (746769) uart_task: UART_DHT_TEMP[0m
+[0;32mI (746769) uart_task: 32.3[0m
+read header
+[0;32mI (756790) uart_task: UART_DHT_HUMID[0m
+[0;32mI (756790) uart_task: 80.0[0m
+read header
+[0;32mI (756850) uart_task: UART_DHT_TEMP[0m
+[0;32mI (756850) uart_task: 32.3[0m
+read header
+[0;32mI (766870) uart_task: UART_DHT_HUMID[0m
+[0;32mI (766870) uart_task: 80.0[0m
+read header
+[0;32mI (766930) uart_task: UART_DHT_TEMP[0m
+[0;32mI (766930) uart_task: 32.3[0m
+read header
+[0;32mI (776891) uart_task: UART_DHT_HUMID[0m
+[0;32mI (776891) uart_task: 80.0[0m
+read header
+[0;32mI (776957) uart_task: UART_DHT_TEMP[0m
+[0;32mI (776957) uart_task: 32.3[0m
+read header
+[0;32mI (786978) uart_task: UART_DHT_HUMID[0m
+[0;32mI (786978) uart_task: 80.0[0m
+read header
+[0;32mI (787038) uart_task: UART_DHT_TEMP[0m
+[0;32mI (787038) uart_task: 32.3[0m
+read header
+[0;32mI (797058) uart_task: UART_DHT_HUMID[0m
+[0;32mI (797058) uart_task: 80.0[0m
+read header
+[0;32mI (797118) uart_task: UART_DHT_TEMP[0m
+[0;32mI (797118) uart_task: 32.3[0m
+read header
+[0;32mI (807078) uart_task: UART_DHT_HUMID[0m
+[0;32mI (807078) uart_task: 80.0[0m
+read header
+[0;32mI (807143) uart_task: UART_DHT_TEMP[0m
+[0;32mI (807143) uart_task: 32.3[0m
+read header
+[0;32mI (817164) uart_task: UART_DHT_HUMID[0m
+[0;32mI (817164) uart_task: 80.0[0m
+read header
+[0;32mI (817224) uart_task: UART_DHT_TEMP[0m
+[0;32mI (817224) uart_task: 32.3[0m
+read header
+[0;32mI (827244) uart_task: UART_DHT_HUMID[0m
+[0;32mI (827244) uart_task: 80.0[0m
+read header
+[0;32mI (827304) uart_task: UART_DHT_TEMP[0m
+[0;32mI (827304) uart_task: 32.3[0m
+read header
+[0;32mI (837265) uart_task: UART_DHT_HUMID[0m
+[0;32mI (837265) uart_task: 80.0[0m
+read header
+[0;32mI (837331) uart_task: UART_DHT_TEMP[0m
+[0;32mI (837331) uart_task: 32.3[0m
+read header
+[0;32mI (844531) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (845193) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (847353) uart_task: UART_DHT_HUMID[0m
+[0;32mI (847353) uart_task: 80.0[0m
+read header
+[0;32mI (847413) uart_task: UART_DHT_TEMP[0m
+[0;32mI (847413) uart_task: 32.3[0m
+read header
+[0;32mI (849153) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (850833) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (855757) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (856657) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (857437) uart_task: UART_DHT_HUMID[0m
+[0;32mI (857437) uart_task: 80.0[0m
+read header
+[0;32mI (857497) uart_task: UART_DHT_TEMP[0m
+[0;32mI (857497) uart_task: 32.3[0m
+read header
+[0;32mI (860858) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (861398) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (862178) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (862658) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (863618) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (864158) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (865298) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (866018) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (866858) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (867278) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (867458) uart_task: UART_DHT_HUMID[0m
+[0;32mI (867458) uart_task: 80.0[0m
+read header
+[0;32mI (867518) uart_task: UART_DHT_TEMP[0m
+[0;32mI (867518) uart_task: 32.3[0m
+read header
+[0;32mI (870878) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (871478) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (872078) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (873578) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (877539) uart_task: UART_DHT_HUMID[0m
+[0;32mI (877539) uart_task: 80.0[0m
+read header
+[0;32mI (877599) uart_task: UART_DHT_TEMP[0m
+[0;32mI (877599) uart_task: 32.3[0m
+read header
+[0;32mI (887619) uart_task: UART_DHT_HUMID[0m
+[0;32mI (887619) uart_task: 80.0[0m
+read header
+[0;32mI (887679) uart_task: UART_DHT_TEMP[0m
+[0;32mI (887679) uart_task: 32.3[0m
+SW5 change state: 0s�?�v�?3
+read header
+[0;32mI (897640) uart_task: UART_DHT_HUMID[0m
+[0;32mI (897640) uart_task: 80.0[0m
+read header
+[0;32mI (897705) uart_task: UART_DHT_TEMP[0m
+[0;32mI (897705) uart_task: 32.3[0m
+read header
+[0;32mI (906286) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (907727) uart_task: UART_DHT_HUMID[0m
+[0;32mI (907727) uart_task: 80.0[0m
+read header
+[0;32mI (907787) uart_task: UART_DHT_TEMP[0m
+[0;32mI (907787) uart_task: 16.1[0m
+SW5 change state: 1s�?�v�?3
+read header
+[0;32mI (917809) uart_task: UART_DHT_HUMID[0m
+[0;32mI (917809) uart_task: 80.0[0m
+read header
+[0;32mI (917869) uart_task: UART_DHT_TEMP[0m
+[0;32mI (917869) uart_task: 32.3[0m
+read header
+[0;32mI (927830) uart_task: UART_DHT_HUMID[0m
+[0;32mI (927830) uart_task: 80.0[0m
+read header
+[0;32mI (927890) uart_task: UART_DHT_TEMP[0m
+[0;32mI (927890) uart_task: 16.1[0m
+SW5 change state: 0s�?�v�?3
+read header
+[0;32mI (928550) uart_task: UART_BUTTON_3[0m
+SW5 change state: 1s�?�v�?3
+read header
+[0;32mI (937910) uart_task: UART_DHT_HUMID[0m
+[0;32mI (937910) uart_task: 79.0[0m
+read header
+[0;32mI (937970) uart_task: UART_DHT_TEMP[0m
+[0;32mI (937970) uart_task: 32.3[0m
+read header
+[0;32mI (947940) uart_task: UART_DHT_HUMID[0m
+[0;32mI (947940) uart_task: 79.0[0m
+read header
+[0;32mI (948009) uart_task: UART_DHT_TEMP[0m
+[0;32mI (948009) uart_task: 32.3[0m
+read header
+[0;32mI (958030) uart_task: UART_DHT_HUMID[0m
+[0;32mI (958030) uart_task: 79.0[0m
+read header
+[0;32mI (958090) uart_task: UART_DHT_TEMP[0m
+[0;32mI (958090) uart_task: 0.1[0m
+read header
+[0;32mI (968051) uart_task: UART_DHT_HUMID[0m
+[0;32mI (968051) uart_task: 79.0[0m
+read header
+[0;32mI (968119) uart_task: UART_DHT_TEMP[0m
+[0;32mI (968119) uart_task: 32.3[0m
+read header
+[0;32mI (978139) uart_task: UART_DHT_HUMID[0m
+[0;32mI (978139) uart_task: 79.0[0m
+read header
+[0;32mI (978199) uart_task: UART_DHT_TEMP[0m
+[0;32mI (978199) uart_task: 32.3[0m
+read header
+[0;32mI (988167) uart_task: UART_DHT_HUMID[0m
+[0;32mI (988167) uart_task: 79.0[0m
+read header
+[0;32mI (988237) uart_task: UART_DHT_TEMP[0m
+[0;32mI (988238) uart_task: 32.3[0m
+read header
+[0;32mI (998258) uart_task: UART_DHT_HUMID[0m
+[0;32mI (998258) uart_task: 79.0[0m
+read header
+[0;32mI (998318) uart_task: UART_DHT_TEMP[0m
+[0;32mI (998318) uart_task: 32.3[0m
+read header
+[0;32mI (1008285) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1008286) uart_task: 79.0[0m
+read header
+[0;32mI (1008355) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1008355) uart_task: 32.3[0m
+read header
+[0;32mI (1018376) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1018376) uart_task: 79.0[0m
+read header
+[0;32mI (1018436) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1018436) uart_task: 32.3[0m
+read header
+[0;32mI (1028402) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1028402) uart_task: 79.0[0m
+read header
+[0;32mI (1028522) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1028522) uart_task: 32.3[0m
+read header
+[0;32mI (1038483) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1038483) uart_task: 79.0[0m
+read header
+[0;32mI (1038543) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1038543) uart_task: 32.3[0m
+read header
+[0;32mI (1048563) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1048563) uart_task: 79.0[0m
+read header
+[0;32mI (1048623) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1048623) uart_task: 32.3[0m
+read header
+[0;32mI (1058583) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1058583) uart_task: 79.0[0m
+read header
+[0;32mI (1058649) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1058649) uart_task: 32.3[0m
+read header
+[0;32mI (1068669) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1068669) uart_task: 79.0[0m
+read header
+[0;32mI (1068729) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1068729) uart_task: 32.3[0m
+read header
+[0;32mI (1078697) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1078697) uart_task: 79.0[0m
+read header
+[0;32mI (1078818) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1078818) uart_task: 32.3[0m
+read header
+[0;32mI (1088780) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1088780) uart_task: 79.0[0m
+read header
+[0;32mI (1088840) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1088840) uart_task: 32.3[0m
+read header
+[0;32mI (1098861) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1098861) uart_task: 79.0[0m
+read header
+[0;32mI (1098921) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1098921) uart_task: 32.3[0m
+read header
+[0;32mI (1108881) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1108881) uart_task: 79.0[0m
+read header
+[0;32mI (1108944) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1108944) uart_task: 32.3[0m
+read header
+[0;32mI (1118964) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1118964) uart_task: 79.0[0m
+read header
+[0;32mI (1119024) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1119024) uart_task: 0.1[0m
+read header
+[0;32mI (1128985) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1128985) uart_task: 79.0[0m
+read header
+[0;32mI (1129051) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1129051) uart_task: 32.3[0m
+read header
+[0;32mI (1139071) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1139071) uart_task: 79.0[0m
+read header
+[0;32mI (1139131) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1139131) uart_task: 32.3[0m
+read header
+[0;32mI (1149100) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1149100) uart_task: 79.0[0m
+read header
+[0;32mI (1149170) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1149170) uart_task: 32.3[0m
+read header
+[0;32mI (1159192) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1159192) uart_task: 79.0[0m
+read header
+[0;32mI (1159252) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1159252) uart_task: 32.3[0m
+read header
+[0;32mI (1169217) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1169217) uart_task: 79.0[0m
+read header
+[0;32mI (1169337) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1169337) uart_task: 32.3[0m
+read header
+[0;32mI (1179297) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1179297) uart_task: 79.0[0m
+read header
+[0;32mI (1179357) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1179357) uart_task: 32.3[0m
+read header
+[0;32mI (1189377) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1189377) uart_task: 79.0[0m
+read header
+[0;32mI (1189437) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1189437) uart_task: 32.3[0m
+read header
+[0;32mI (1199398) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1199398) uart_task: 79.0[0m
+read header
+[0;32mI (1199464) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1199464) uart_task: 32.3[0m
+read header
+[0;32mI (1209484) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1209484) uart_task: 79.0[0m
+read header
+[0;32mI (1209544) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1209544) uart_task: 32.3[0m
+read header
+[0;32mI (1219511) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1219511) uart_task: 79.0[0m
+read header
+[0;32mI (1219631) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1219631) uart_task: 0.1[0m
+read header
+[0;32mI (1229592) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1229592) uart_task: 79.0[0m
+read header
+[0;32mI (1229652) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1229652) uart_task: 32.3[0m
+read header
+[0;32mI (1239620) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1239620) uart_task: 79.0[0m
+read header
+[0;32mI (1239689) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1239689) uart_task: 32.3[0m
+read header
+[0;32mI (1249709) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1249709) uart_task: 80.0[0m
+read header
+[0;32mI (1249769) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1249769) uart_task: 32.3[0m
+read header
+[0;32mI (1259789) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1259789) uart_task: 80.0[0m
+read header
+[0;32mI (1259849) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1259849) uart_task: 16.1[0m
+read header
+[0;32mI (1269809) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1269809) uart_task: 80.0[0m
+read header
+[0;32mI (1269869) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1269869) uart_task: 32.3[0m
+read header
+[0;32mI (1279889) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1279889) uart_task: 79.0[0m
+read header
+[0;32mI (1279949) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1279949) uart_task: 32.3[0m
+read header
+[0;32mI (1289969) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1289969) uart_task: 79.0[0m
+read header
+[0;32mI (1290029) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1290029) uart_task: 32.3[0m
+read header
+[0;32mI (1299989) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1299989) uart_task: 79.0[0m
+read header
+[0;32mI (1300050) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1300050) uart_task: 32.3[0m
+read header
+[0;32mI (1310070) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1310070) uart_task: 79.0[0m
+read header
+[0;32mI (1310130) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1310130) uart_task: 32.3[0m
+read header
+[0;32mI (1320099) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1320099) uart_task: 79.0[0m
+read header
+[0;32mI (1320219) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1320219) uart_task: 32.3[0m
+read header
+[0;32mI (1330179) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1330179) uart_task: 79.0[0m
+read header
+[0;32mI (1330239) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1330239) uart_task: 32.3[0m
+read header
+[0;32mI (1340259) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1340259) uart_task: 79.0[0m
+read header
+[0;32mI (1340319) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1340319) uart_task: 32.3[0m
+read header
+[0;32mI (1350279) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1350279) uart_task: 79.0[0m
+read header
+[0;32mI (1350346) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1350346) uart_task: 32.3[0m
+read header
+[0;32mI (1360366) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1360366) uart_task: 79.0[0m
+read header
+[0;32mI (1360426) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1360426) uart_task: 32.3[0m
+read header
+[0;32mI (1370395) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1370395) uart_task: 79.0[0m
+read header
+[0;32mI (1370515) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1370515) uart_task: 32.3[0m
+read header
+read header
+[0;32mI (1384325) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1384325) uart_task: 79.0[0m
+read header
+[0;32mI (1384385) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1384385) uart_task: 32.3[0m
+read header
+[0;32mI (1388105) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (1390625) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (1391465) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (1392665) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (1393445) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (1394105) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (1394405) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1394405) uart_task: 79.0[0m
+read header
+[0;32mI (1394465) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1394465) uart_task: 32.3[0m
+read header
+[0;32mI (1395605) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (1396445) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (1397285) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (1397945) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (1398545) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (1399025) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (1399565) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (1400045) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (1401791) uart_task: UART_BUTTON_1[0m
+read header
+[0;32mI (1402331) uart_task: UART_BUTTON_2[0m
+read header
+[0;32mI (1402751) uart_task: UART_BUTTON_3[0m
+read header
+[0;32mI (1403231) uart_task: UART_BUTTON_4[0m
+read header
+[0;32mI (1404431) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1404431) uart_task: 79.0[0m
+read header
+[0;32mI (1404497) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1404497) uart_task: 32.3[0m
+SW5 change state: 0s�?�v�?3
+read header
+[0;32mI (1414519) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1414520) uart_task: 79.0[0m
+read header
+[0;32mI (1414580) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1414580) uart_task: 32.3[0m
+read header
+[0;32mI (1424546) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1424546) uart_task: 79.0[0m
+read header
+[0;32mI (1424614) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1424614) uart_task: 32.7[0m
+read header
+[0;32mI (1434634) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1434634) uart_task: 79.0[0m
+read header
+[0;32mI (1434694) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1434694) uart_task: 32.8[0m
+read header
+[0;32mI (1444715) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1444715) uart_task: 79.0[0m
+read header
+[0;32mI (1444775) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1444775) uart_task: 32.8[0m
+read header
+[0;32mI (1454735) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1454735) uart_task: 79.0[0m
+read header
+[0;32mI (1454798) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1454798) uart_task: 32.8[0m
+read header
+[0;32mI (1464819) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1464819) uart_task: 79.0[0m
+read header
+[0;32mI (1464879) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1464879) uart_task: 32.8[0m
+read header
+[0;32mI (1474900) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1474900) uart_task: 79.0[0m
+read header
+[0;32mI (1474960) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1474960) uart_task: 32.8[0m
+read header
+[0;32mI (1484921) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1484921) uart_task: 79.0[0m
+read header
+[0;32mI (1484981) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1484981) uart_task: 32.8[0m
+read header
+[0;32mI (1495001) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1495001) uart_task: 79.0[0m
+read header
+[0;32mI (1495061) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1495061) uart_task: 32.8[0m
+read header
+[0;32mI (1505033) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1505033) uart_task: 79.0[0m
+read header
+[0;32mI (1505102) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1505102) uart_task: 32.8[0m
+read header
+[0;32mI (1515122) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1515122) uart_task: 79.0[0m
+read header
+[0;32mI (1515182) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1515182) uart_task: 32.8[0m
+read header
+[0;32mI (1525203) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1525203) uart_task: 79.0[0m
+read header
+[0;32mI (1525263) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1525263) uart_task: 32.8[0m
+read header
+[0;32mI (1535223) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1535223) uart_task: 79.0[0m
+read header
+[0;32mI (1535285) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1535285) uart_task: 32.8[0m
+read header
+[0;32mI (1545305) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1545305) uart_task: 79.0[0m
+read header
+[0;32mI (1545365) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1545365) uart_task: 32.8[0m
+read header
+[0;32mI (1555386) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1555386) uart_task: 79.0[0m
+read header
+[0;32mI (1555446) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1555446) uart_task: 32.3[0m
+read header
+[0;32mI (1565406) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1565406) uart_task: 79.0[0m
+read header
+[0;32mI (1565467) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1565467) uart_task: 32.3[0m
+read header
+[0;32mI (1575487) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1575487) uart_task: 79.0[0m
+read header
+[0;32mI (1575547) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1575547) uart_task: 32.3[0m
+read header
+[0;32mI (1585514) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1585514) uart_task: 79.0[0m
+read header
+[0;32mI (1585634) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1585634) uart_task: 32.3[0m
+read header
+[0;32mI (1595596) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1595596) uart_task: 79.0[0m
+read header
+[0;32mI (1595656) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1595656) uart_task: 32.3[0m
+read header
+[0;32mI (1605676) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1605676) uart_task: 79.0[0m
+read header
+[0;32mI (1605736) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1605736) uart_task: 32.3[0m
+read header
+[0;32mI (1615697) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1615697) uart_task: 79.0[0m
+read header
+[0;32mI (1615761) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1615761) uart_task: 32.3[0m
+read header
+[0;32mI (1625781) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1625781) uart_task: 79.0[0m
+read header
+[0;32mI (1625841) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1625841) uart_task: 32.3[0m
+read header
+[0;32mI (1635810) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1635810) uart_task: 79.0[0m
+read header
+[0;32mI (1635930) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1635930) uart_task: 32.3[0m
+read header
+[0;32mI (1645890) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1645890) uart_task: 79.0[0m
+read header
+[0;32mI (1645950) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1645950) uart_task: 32.3[0m
+read header
+[0;32mI (1655970) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1655970) uart_task: 79.0[0m
+read header
+[0;32mI (1656030) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1656030) uart_task: 32.3[0m
+read header
+[0;32mI (1665993) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1665993) uart_task: 79.0[0m
+read header
+[0;32mI (1666056) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1666056) uart_task: 32.3[0m
+read header
+[0;32mI (1676076) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1676076) uart_task: 79.0[0m
+read header
+[0;32mI (1676136) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1676136) uart_task: 32.3[0m
+read header
+[0;32mI (1686105) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1686105) uart_task: 79.0[0m
+read header
+[0;32mI (1686174) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1686174) uart_task: 32.3[0m
+read header
+[0;32mI (1696194) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1696194) uart_task: 79.0[0m
+read header
+[0;32mI (1696254) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1696254) uart_task: 32.3[0m
+read header
+[0;32mI (1706274) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1706274) uart_task: 79.0[0m
+read header
+[0;32mI (1706334) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1706334) uart_task: 32.3[0m
+read header
+[0;32mI (1716294) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1716294) uart_task: 79.0[0m
+read header
+[0;32mI (1716354) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1716354) uart_task: 32.3[0m
+read header
+[0;32mI (1726375) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1726375) uart_task: 79.0[0m
+read header
+[0;32mI (1726435) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1726435) uart_task: 32.3[0m
+read header
+[0;32mI (1736402) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1736402) uart_task: 79.0[0m
+read header
+[0;32mI (1736472) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1736472) uart_task: 32.3[0m
+read header
+[0;32mI (1746492) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1746492) uart_task: 79.0[0m
+read header
+[0;32mI (1746552) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1746552) uart_task: 32.3[0m
+read header
+[0;32mI (1756520) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1756520) uart_task: 79.0[0m
+read header
+[0;32mI (1756640) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1756640) uart_task: 32.3[0m
+read header
+[0;32mI (1766601) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1766601) uart_task: 79.0[0m
+read header
+[0;32mI (1766661) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1766661) uart_task: 32.3[0m
+read header
+[0;32mI (1776684) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1776684) uart_task: 79.0[0m
+read header
+[0;32mI (1776744) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1776744) uart_task: 32.3[0m
+read header
+[0;32mI (1786705) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1786705) uart_task: 79.0[0m
+read header
+[0;32mI (1786767) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1786767) uart_task: 32.3[0m
+read header
+[0;32mI (1796787) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1796787) uart_task: 79.0[0m
+read header
+[0;32mI (1796847) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1796847) uart_task: 32.3[0m
+read header
+[0;32mI (1806815) uart_task: UART_DHT_HUMID[0m
+[0;32mI (1806815) uart_task: 79.0[0m
+read header
+[0;32mI (1806884) uart_task: UART_DHT_TEMP[0m
+[0;32mI (1806884) uart_task: 32.3[0m
