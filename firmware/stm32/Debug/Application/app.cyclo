@@ -1,0 +1,9 @@
+../Application/app.c:51:6:App_Main	1
+../Application/app.c:92:13:Task_Relay_Light	43
+../Application/app.c:309:13:Task_UART_RX	7
+../Application/app.c:354:13:UART_Frame_TX	3
+../Application/app.c:370:13:Task_UART_TX	14
+../Application/app.c:460:13:Task_TFT_Display	6
+../Application/app.c:522:13:Task_Relay_Humid_Fan	31
+../Application/app.c:699:13:Task_DHT_Get_Data	2
+../Application/app.c:728:6:HAL_GPIO_EXTI_Callback	6

@@ -1,0 +1,9 @@
+../Lib/tft_ili9341/ILI9341_GFX.c:14:6:ILI9341_DrawHollowCircle	48	static
+../Lib/tft_ili9341/ILI9341_GFX.c:49:6:ILI9341_DrawFilledCircle	56	static
+../Lib/tft_ili9341/ILI9341_GFX.c:85:6:ILI9341_DrawHollowRectangleCoord	40	static
+../Lib/tft_ili9341/ILI9341_GFX.c:131:6:ILI9341_DrawFilledRectangleCoord	48	static
+../Lib/tft_ili9341/ILI9341_GFX.c:173:6:ILI9341_Draw_BitMap	32	static
+../Lib/tft_ili9341/ILI9341_GFX.c:211:6:ILI9341_ConfigPrint	24	static
+../Lib/tft_ili9341/ILI9341_GFX.c:222:6:ILI9341_PrintChar	56	static
+../Lib/tft_ili9341/ILI9341_GFX.c:284:6:ILI9341_PrintBuffer	32	static
+../Lib/tft_ili9341/ILI9341_GFX.c:317:9:ILI9341_Print	64	static

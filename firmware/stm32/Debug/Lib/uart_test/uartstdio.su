@@ -1,0 +1,9 @@
+../Lib/uart_test/uartstdio.c:139:16:is_buffer_full	32	static
+../Lib/uart_test/uartstdio.c:171:16:is_buffer_empty	24	static
+../Lib/uart_test/uartstdio.c:201:17:get_buffer_count	32	static
+../Lib/uart_test/uartstdio.c:221:13:UART_prime_transmit	16	static
+../Lib/uart_test/uartstdio.c:267:6:HAL_UART_TxCpltCallback	16	static
+../Lib/uart_test/uartstdio.c:296:6:HAL_UART_RxCpltCallback	24	static,ignoring_inline_asm
+../Lib/uart_test/uartstdio.c:342:6:UART_Config	24	static
+../Lib/uart_test/uartstdio.c:382:10:UART_write	24	static
+../Lib/uart_test/uartstdio.c:497:6:UART_printf	48	static

@@ -1,0 +1,9 @@
+../Application/app.c:51:6:App_Main	16	static
+../Application/app.c:92:13:Task_Relay_Light	32	static
+../Application/app.c:309:13:Task_UART_RX	32	static
+../Application/app.c:354:13:UART_Frame_TX	16	static
+../Application/app.c:370:13:Task_UART_TX	32	static
+../Application/app.c:460:13:Task_TFT_Display	40	static
+../Application/app.c:522:13:Task_Relay_Humid_Fan	40	static
+../Application/app.c:699:13:Task_DHT_Get_Data	32	static
+../Application/app.c:728:6:HAL_GPIO_EXTI_Callback	24	static,ignoring_inline_asm

@@ -1,0 +1,3 @@
+../Lib/delay/delay.c:11:10:Delay_Init	1
+../Lib/delay/delay.c:18:6:delay_us	4
+../Lib/delay/delay.c:41:6:delay_ms	4

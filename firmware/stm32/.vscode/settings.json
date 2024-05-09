@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "uartstdio.h": "c",
+        "ili9341_stm32_driver.h": "c",
+        "ili9341_gfx.h": "c",
+        "stdarg.h": "c",
+        "app.h": "c"
+    }
+}

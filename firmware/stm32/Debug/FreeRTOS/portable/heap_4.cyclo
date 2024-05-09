@@ -1,0 +1,9 @@
+../FreeRTOS/portable/heap_4.c:173:8:pvPortMalloc	14
+../FreeRTOS/portable/heap_4.c:348:6:vPortFree	4
+../FreeRTOS/portable/heap_4.c:407:8:xPortGetFreeHeapSize	1
+../FreeRTOS/portable/heap_4.c:413:8:xPortGetMinimumEverFreeHeapSize	1
+../FreeRTOS/portable/heap_4.c:419:6:vPortInitialiseBlocks	1
+../FreeRTOS/portable/heap_4.c:425:8:pvPortCalloc	5
+../FreeRTOS/portable/heap_4.c:444:13:prvHeapInit	2
+../FreeRTOS/portable/heap_4.c:492:13:prvInsertBlockIntoFreeList	6
+../FreeRTOS/portable/heap_4.c:560:6:vPortGetHeapStats	5

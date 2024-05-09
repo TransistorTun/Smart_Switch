@@ -1,0 +1,11 @@
+../FreeRTOS/portable/GCC/ARM_CM3/port.c:182:15:pxPortInitialiseStack	24	static
+../FreeRTOS/portable/GCC/ARM_CM3/port.c:202:13:prvTaskExitError	16	static,ignoring_inline_asm
+../FreeRTOS/portable/GCC/ARM_CM3/port.c:228:6:vPortSVCHandler	0	static,ignoring_inline_asm
+../FreeRTOS/portable/GCC/ARM_CM3/port.c:248:13:prvPortStartFirstTask	0	static,ignoring_inline_asm
+../FreeRTOS/portable/GCC/ARM_CM3/port.c:269:12:xPortStartScheduler	16	static
+../FreeRTOS/portable/GCC/ARM_CM3/port.c:419:6:vPortEndScheduler	4	static
+../FreeRTOS/portable/GCC/ARM_CM3/port.c:427:6:vPortEnterCritical	16	static,ignoring_inline_asm
+../FreeRTOS/portable/GCC/ARM_CM3/port.c:444:6:vPortExitCritical	16	static,ignoring_inline_asm
+../FreeRTOS/portable/GCC/ARM_CM3/port.c:456:6:xPortPendSVHandler	0	static,ignoring_inline_asm
+../FreeRTOS/portable/GCC/ARM_CM3/port.c:493:6:xPortSysTickHandler	16	static,ignoring_inline_asm
+../FreeRTOS/portable/GCC/ARM_CM3/port.c:745:32:vPortSetupTimerInterrupt	4	static

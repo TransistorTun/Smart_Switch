@@ -1,0 +1,2 @@
+../Lib/lm_393/lm_393.c:9:6:LM393_Init	1
+../Lib/lm_393/lm_393.c:15:9:lm393_get_data	2

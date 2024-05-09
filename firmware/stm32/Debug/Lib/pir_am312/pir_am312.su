@@ -1,0 +1,2 @@
+../Lib/pir_am312/pir_am312.c:9:6:PIR_AM312_Init	16	static
+../Lib/pir_am312/pir_am312.c:15:9:pir_am312_get_data	8	static
